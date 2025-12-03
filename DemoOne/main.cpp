@@ -11,6 +11,9 @@ Description : Tests C++ project
 #include <vector>
 #include <string_view>
 
+#include "Vand_gate.h"
+#include "verilated.h"
+
 
 int main([[maybe_unused]] const int argc,
          [[maybe_unused]] char** argv)
@@ -19,3 +22,6 @@ int main([[maybe_unused]] const int argc,
 
     return EXIT_SUCCESS;
 }
+
+// verilator --cc and_gate.sv --exe test_and.cpp
+// make -j -C obj_dir/ Vand_gate
