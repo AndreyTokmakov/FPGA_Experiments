@@ -11,8 +11,8 @@ Description : Tests C++ project
 #include <vector>
 #include <string_view>
 
-#include "Vand_gate.h"
-#include "verilated.h"
+//#include "obj_dir/Vand_gate.h"
+// #include "verilated.h"
 
 
 int main([[maybe_unused]] const int argc,
